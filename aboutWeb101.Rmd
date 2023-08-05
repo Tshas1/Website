@@ -1,0 +1,46 @@
+---
+title: "Web 101"
+author: "Sandile Tshazibana"
+date: "2023-08-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+title: "Map Website"
+image: "frank.jpg"
+links:
+  - label: World Map
+    url: "https://view.genial.ly/64ce8ebef4857400195ed55c/interactive-content-world-map-languages target = '_blank'"
+  - label: Email
+    url: "tshazis@gmail.com"
+output:
+  postcards::trestles
+site: distill::distill_website  
+---
+ 
+## World Interactive Map
+
+Best Map Website.Has been featured in Newsweek, and The New York 
+Times Magazine.
+
+url: "https://view.genial.ly/64ce8ebef4857400195ed55c/interactive-content-world-map-languages"
+
+## Education
+
+**Coursera** | NY City, USA
+
+Ph.D. in World Map Designs | September 2009 - May 2014
+
+**The University of California, Berkeley** | Berkeley, CA
+
+B.S. in Geography Mechanics | September 2005 - May 2009
+
+## Experience
+
+**Google Brain** | Map Investigator | January 2018 - Present
+
+**Netflix** | Land Scientist | June 2014 - December 2017
